@@ -22,6 +22,7 @@ export interface TeamMember {
   role: string;
   bio: string;
   imageUrl: string;
+  linkedin?: string;
 }
 
 export interface ContactDetail {
@@ -157,10 +158,10 @@ export const TEAM_CONTENT = {
   title: "Leadership & Key Contributors",
   subtext: "A capable, experienced team managing AZM Nexus's diversified operations with focus and accountability.",
   members: [
-    { name: "[Executive Name]", role: "Chief Executive Officer", bio: "Strategic direction and corporate governance oversight.", imageUrl: "" },
-    { name: "[Executive Name]", role: "Head of Technology", bio: "Managing digital infrastructure and tech service deployment.", imageUrl: "" },
-    { name: "[Executive Name]", role: "Head of Agriculture & Trade", bio: "Directing supply chains and agricultural bulk logistics.", imageUrl: "" },
-    { name: "[Executive Name]", role: "Digital Asset Operations Lead", bio: "Overseeing P2P trading platforms and compliance protocols.", imageUrl: "" },
+    { name: "Abubakar Sadiq Abdulhameed", role: "Chief Executive Officer", bio: "A results-driven technologist with six years of experience across AI, software engineering, and machine learning. Skilled in development, algorithms, and data science — with a track record of translating complex concepts into clear, actionable outcomes.", imageUrl: "/images/team/ceo.jpg", linkedin: "https://www.linkedin.com/in/abubakar-sadiq-abdulhameed/" },
+    { name: "Khalid Adedolapo Adebiyi", role: "Senior Fullstack Engineer", bio: "Senior Full-Stack Engineer focused on building secure, scalable web applications from backend to frontend. Brings a security-first mindset backed by hands-on penetration testing experience, with a track record across healthcare SaaS and enterprise tooling. Adapts across stacks, languages, and cloud platforms as the project demands.", imageUrl: "/images/team/sfe.jpg", linkedin: "https://www.linkedin.com/in/khalid-adebiyi-a99157174" },
+    { name: "Muhammed (Idowu) Mustapha", role: "Quality Automation / Fullstack Engineer", bio: "QA Engineer and Customer Experience specialist with a background spanning telecom, renewable energy, fintech, and Web3. Bridges the gap between users, support, and engineering — catching bugs and usability gaps early while ensuring post-launch customer satisfaction through escalation handling, CSAT, and NPS analysis. Currently transitioning into automation testing. Works best in fast-paced environments where product quality and user experience are taken seriously.", imageUrl: "/images/team/fsqa.jpeg", linkedin: "https://www.linkedin.com/in/muhammed-mustapha-819347169" },
+    { name: "Khalifah Abdul-hameed", role: "Machine Learning / Cloud / Backend Engineer", bio: "Backend and Cloud Engineer with a growing focus on Machine Learning — building the infrastructure and systems that take models from experiment to production. Comfortable across cloud platforms, distributed systems, and backend architecture, with an eye for scalable, maintainable design.", imageUrl: "/images/team/JMLCB.jpg", linkedin: "https://www.linkedin.com/in/khalifah-abdul-hameed-4b86bb314" },
   ],
   footerText: "More team members coming soon →",
 };
